@@ -118,10 +118,10 @@
 							</fieldset>
 							<select name="operation">
 								<option value="SELECT">Select Operand</option>
-								<option value="ADD">Addition</option>
-								<option value="SUB">Subtraction</option>
-								<option value="MUL">Multiplication</option>
-								<option value="DIV">Division</option>
+								<option value="ADD"> "+" Addition</option>
+								<option value="SUB"> "-" Subtraction</option>
+								<option value="MUL"> "×" Multiplication</option>
+								<option value="DIV"> "/" Division</option>
 							</select>
 						</td>
 
