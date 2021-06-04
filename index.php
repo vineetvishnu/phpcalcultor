@@ -64,7 +64,7 @@
 			p {
 				background-color: white;
 				width: 130px;
-				height:28px;
+				height:30px;
 				font-size: 25px;
 				border: 2px inset white;
 				border-radius: 5px;
