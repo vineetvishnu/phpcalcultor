@@ -10,31 +10,29 @@
 				font-family: 'Mate SC', serif;
 				font-weight: 300;
 				overflow-x: hidden;
-				background-color: rgb(3, 16, 41);
+				background-color: #000000;
 			}
 
 			h1{
 				color: white;
-				position: relative;
-				top: 10%;
-				left: 41%;
-				animation: text-animate 2s ease infinite;
+				font-size: 80px;
+				margin-left: 10%;
+				animation: text-animate 3s ease infinite;
 				
 			}
 			
 			@keyframes text-animate{
-				0%{transform: scale(0.9); color: chartreuse;}
-				50%{transform: scale(1); color: white;}
-				100%{transform: scale(0.9); color: chartreuse;}
+				0%{ color: chartreuse;}
+				25%{color: #667796;}
+				50%{color: #667796;}
+				75%{color: chartreuse;}
+				100%{color: #fff;}
 			}
 			
 			table {
 				box-shadow: 1px 1px 2px #fff, 0 0 25px #ffeded, 0 0 5px #ebebeb;
 				border-radius: 12px;
-				position: absolute;
-				top: 30%;
-				left: 50%;
-				transform: translate(-50%);
+				margin: 10%;
 			}
 
 			td {
